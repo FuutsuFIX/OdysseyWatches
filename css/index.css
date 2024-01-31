@@ -1,0 +1,50 @@
+.carousel-item img {
+  translate: -25%;
+}
+
+#watchesCarousel {
+  position: relative; /* Imposta il posizionamento relativo per il contenitore */
+  z-index: 1;
+}
+#watchesCarousel::before {
+  content: ""; /* Necessario per renderizzare un pseudo-elemento */
+  position: absolute; /* Posiziona assolutamente rispetto al contenitore */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  width: 150%;
+  translate: -25%;
+  filter: blur(5px);
+  z-index: -1;
+  overflow: hidden;
+}
+/* Our Numbers Section Styles */
+.our-numbers-section {
+  color: #fff;
+  overflow: hidden;
+  height: 75vh; /* Imposta l'altezza al 75% dell'altezza della viewport */
+}
+
+.our-numbers-section .number-statistic {
+  margin-bottom: 1rem; /* Spazio in basso per ogni statistica */
+}
+
+.our-numbers-section .number-statistic h3 {
+  font-size: 3rem; /* Dimensione grande per i numeri */
+  font-weight: bold; /* Grassetto per i numeri */
+  margin-bottom: 0.5rem; /* Spazio tra il numero e il testo */
+}
+
+.our-numbers-section .number-statistic p {
+  font-size: 1.2rem; /* Dimensione adatta per il testo */
+}
+
+@media (max-width: 992px) {
+  /* Adatta il layout per dispositivi più piccoli */
+  .our-numbers-section {
+    height: auto; /* Altezza automatica su dispositivi più piccoli */
+  }
+}

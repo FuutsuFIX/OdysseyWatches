@@ -1,0 +1,77 @@
+/* Importa i font da Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Federo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap");
+
+h1 {
+  font-family: "Federo", sans-serif;
+  font-weight: normal; /* Regular */
+  font-size: 48px;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+}
+
+/* Stili per Sottotitoli (H2) */
+h2 {
+  font-family: "Federo", sans-serif;
+  font-weight: normal; /* Regular */
+  font-size: 36px;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+}
+
+/* Stili per Sottotitoli (H3) */
+h3 {
+  font-family: "Jost", sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 32px;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+}
+
+/* Stili per Sottotitoli (H4) */
+h4 {
+  font-family: "Jost", sans-serif;
+  font-weight: normal; /* Regular */
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+}
+
+/* Stili per Testo del corpo */
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: normal; /* Regular */
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  color: #fffbf5;
+}
+
+/* Stili per Testo in evidenza o citazioni */
+em,
+blockquote {
+  font-family: "Jost", sans-serif;
+  font-weight: 600; /* Semi Grassetto */
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1.2;
+  font-style: italic; /* Stile highlight */
+}
+
+/* Stili per Testo di navigazione (menu, link, pulsanti) */
+nav a,
+.link,
+button {
+  font-family: "Jost", sans-serif;
+  font-weight: 600; /* Semigrassetto */
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 1.2;
+  text-decoration: none; /* Nessuna sottolineatura di default */
+}
+
+nav a:hover,
+.link:hover,
+button:hover {
+  text-decoration: underline; /* Sottolineatura al passaggio del mouse */
+}

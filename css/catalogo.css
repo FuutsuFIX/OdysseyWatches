@@ -1,0 +1,94 @@
+.watch-card {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.watch-card img {
+  margin-bottom: 15px;
+  max-width: 100%; /* Assicura che le immagini siano responsive */
+}
+.sold-out {
+  color: red;
+  font-weight: bold;
+}
+.coming-soon {
+  color: green;
+  font-weight: bold;
+}
+.watch-card h5 {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+.watch-card p {
+  font-size: 0.9em;
+}
+.catalogue-title {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.watch-card {
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.watch-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay-sold-out,
+.overlay-coming-soon {
+  position: absolute;
+  top: 50%; /* Centra l'overlay verticalmente */
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 64px; /* Altezza dell'overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Federo", sans-serif;
+  font-weight: normal; /* Regular */
+  font-size: 36px;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+}
+.overlay-sold-out::before,
+.overlay-coming-soon::before {
+  content: ""; /* Necessario per renderizzare un pseudo-elemento */
+  position: absolute; /* Posiziona assolutamente rispetto al contenitore */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  width: 80%;
+  transform: translateX(10%);
+  filter: blur(5px);
+  z-index: -1;
+  overflow: hidden;
+}
+
+.overlay-sold-out {
+  color: orange; /* Colore del testo per "SOLD OUT" */
+}
+
+.overlay-coming-soon {
+  color: #7ba6d4; /* Colore del testo per "COMING SOON" */
+}
+
+.btn-explore {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-explore:hover {
+  background-color: #fff;
+  color: #000;
+}

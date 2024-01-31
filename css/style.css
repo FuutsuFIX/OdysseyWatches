@@ -1,0 +1,21 @@
+.mirror {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.custom-button {
+  color: white;
+  border-radius: 28px;
+  background: rgba(217, 114, 24, 0.75);
+  backdrop-filter: blur(2px);
+}
+.custom-button:active,
+.custom-button:focus,
+.custom-button:hover {
+  border-radius: 28px;
+  background: rgba(151, 79, 16, 0.75);
+  backdrop-filter: blur(2px);
+}
+body {
+  background-image: url(../img/materials/bg.png);
+}
