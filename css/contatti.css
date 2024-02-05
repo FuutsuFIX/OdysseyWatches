@@ -1,17 +1,14 @@
 @media (max-width: 767px) {
-  /* Cambia l'orientamento della riga in verticale */
   .row {
     flex-direction: column;
-    align-items: center; /* Assicurati che tutto sia centrato */
+    align-items: center;
   }
 
-  /* Gira le frecce di 90 gradi */
   .row .col .arrow_circle {
     transform: rotate(90deg);
-    margin: 15px; /* Aggiungi un po' di margine tra le frecce e il testo sottostante */
+    margin: 15px;
   }
 
-  /* Mostra le frecce anche su schermi piccoli */
   .row .col.d-none.d-md-flex {
     display: flex !important;
   }
@@ -19,15 +16,10 @@
 .carousel,
 .carousel-item,
 .carousel-item img {
-  height: 100vh; /* Imposta l'altezza del carosello per coprire l'intero viewport */
-  object-fit: cover; /* Assicura che le immagini si adattino senza distorcere */
+  height: 100vh;
+  object-fit: cover;
 }
 .carousel-caption {
-  background: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Sfondo semi-trasparente per il testo per una migliore leggibilità */
-  bottom: 10%; /* Posiziona la didascalia un po' più in alto dal fondo */
+  background: rgba(0, 0, 0, 0.5);
+  bottom: 10%;
 }

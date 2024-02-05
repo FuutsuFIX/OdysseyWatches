@@ -4,7 +4,7 @@
 }
 .watch-card img {
   margin-bottom: 15px;
-  max-width: 100%; /* Assicura che le immagini siano responsive */
+  max-width: 100%;
 }
 .sold-out {
   color: red;
@@ -41,27 +41,27 @@
 .overlay-sold-out,
 .overlay-coming-soon {
   position: absolute;
-  top: 50%; /* Centra l'overlay verticalmente */
+  top: 50%;
   left: 0;
   width: 100%;
   transform: translateY(-50%);
   color: #fff;
   font-size: 1.2em;
   font-weight: bold;
-  height: 64px; /* Altezza dell'overlay */
+  height: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Federo", sans-serif;
-  font-weight: normal; /* Regular */
+  font-weight: normal;
   font-size: 36px;
   letter-spacing: 1.2px;
   line-height: 1.2;
 }
 .overlay-sold-out::before,
 .overlay-coming-soon::before {
-  content: ""; /* Necessario per renderizzare un pseudo-elemento */
-  position: absolute; /* Posiziona assolutamente rispetto al contenitore */
+  content: "";
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -76,11 +76,11 @@
 }
 
 .overlay-sold-out {
-  color: orange; /* Colore del testo per "SOLD OUT" */
+  color: orange;
 }
 
 .overlay-coming-soon {
-  color: #7ba6d4; /* Colore del testo per "COMING SOON" */
+  color: #7ba6d4;
 }
 
 .btn-explore {
