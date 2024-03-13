@@ -28,6 +28,10 @@
   height: 75vh;
 }
 
+.footer{
+  background-color: rgba(64, 107, 153, 0.23);
+}
+
 .our-numbers-section .number-statistic {
   margin-bottom: 1rem;
 }
