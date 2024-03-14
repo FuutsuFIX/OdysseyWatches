@@ -84,11 +84,12 @@
 }
 
 .btn-explore {
-  border: 2px solid #fff;
   color: #fff;
 }
 
 .btn-explore:hover {
-  background-color: #fff;
-  color: #000;
+  color: #fffbf5;
+  text-decoration: none;
+  font-size: larger;
+  transition: 0.3s;
 }
