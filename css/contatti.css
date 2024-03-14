@@ -23,3 +23,12 @@
   background: rgba(0, 0, 0, 0.5);
   bottom: 10%;
 }
+
+.email{
+  text-decoration: none;
+  color: #FFFBF5;
+}
+
+a .email :hover{
+  color: #D97218;
+}
