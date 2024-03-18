@@ -3,9 +3,15 @@
 }
 
 .hero-home{
-  background: ;
-
+  background: url("/img/materials/home/hero_background_astronauts.svg") no-repeat center
+    center;
+    background-size: cover;
+    height: 150vh;
+    display: flex;
+    align-items: center;
 }
+
+
 
 #watchesCarousel {
   position: relative;
