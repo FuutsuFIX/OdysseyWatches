@@ -1,9 +1,14 @@
 .hero-section-about {
-    background: url("../img/materials/about/About-bg.svg") no-repeat center
+    background: url("../img/materials/about/About-bg.png") no-repeat center
       center;
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
-    color: #fff;
+  }
+
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
   }
