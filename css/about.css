@@ -1,5 +1,5 @@
-.hero-section {
-    background: url("../img/materials/about/") no-repeat center
+.hero-section-about {
+    background: url("../img/materials/about/About-bg.svg") no-repeat center
       center;
     background-size: cover;
     height: 100vh;
