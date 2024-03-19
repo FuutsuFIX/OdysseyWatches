@@ -21,7 +21,7 @@
     padding: 64px 0;
     overflow: hidden;
   }
-  .black-blur::before {
+  #team {
     content: "";
     position: absolute;
     top: 0;
@@ -30,9 +30,8 @@
     left: 0;
     background-size: cover;
     width: 150%;
-    translate: -25%;
-    filter: blur(5px);
-    z-index: -1;
-    overflow: hidden;
+    translate: -3%;
   }
-
+  #industry-img{
+    translate: 12%;
+  }
