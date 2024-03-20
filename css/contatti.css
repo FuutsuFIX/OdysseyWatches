@@ -32,3 +32,10 @@
 a .email :hover{
   color: #D97218;
 }
+
+.hero-image {
+  margin-top: 80px;
+}
+.hero-image img {
+  width: 90%;
+}
