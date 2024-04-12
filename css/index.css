@@ -64,9 +64,3 @@
   }
 }
 
-
-@media (max-width: 767px) {
-  .navbar-brand {
-    font-size: 20px;
-  }
-}

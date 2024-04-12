@@ -103,3 +103,10 @@ nav a:hover,
 button:hover {
   text-decoration: underline; /* Sottolineatura al passaggio del mouse */
 }
+
+
+@media (max-width: 768px) {
+  .navbar-brand{
+    font-size: 25px;
+  }
+}
