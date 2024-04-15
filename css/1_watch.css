@@ -18,4 +18,14 @@ section {
     z-index: -1;
     overflow: hidden;
   }
-  
+  .full-img {
+    right: 0;
+    max-width: 150%;
+    transform: translateX(-30%);
+  }
+  @media only screen and (max-width: 768px) {
+    .full-img {
+      max-width: 150%;
+      transform: translateX(-10%);
+    }
+  }
