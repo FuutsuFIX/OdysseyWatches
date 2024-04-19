@@ -6,7 +6,7 @@
 
   .row .col .arrow_circle {
     transform: rotate(90deg);
-    margin: 15px;
+    margin: 24px;
   }
 
   .row .col.d-none.d-md-flex {
@@ -24,13 +24,13 @@
   bottom: 10%;
 }
 
-.email{
+.email {
   text-decoration: none;
-  color: #FFFBF5;
+  color: #fffbf5;
 }
 
-a .email :hover{
-  color: #D97218;
+a .email :hover {
+  color: #d97218;
 }
 
 .hero-image {
@@ -38,4 +38,8 @@ a .email :hover{
 }
 .hero-image img {
   width: 90%;
+}
+
+.hero-section {
+  padding: 96px 0;
 }
