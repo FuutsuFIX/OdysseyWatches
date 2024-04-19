@@ -5,6 +5,7 @@ section {
     padding: 64px 0;
     overflow: hidden;
   }
+
   .black-blur::before {
     content: "";
     position: absolute;
@@ -29,3 +30,17 @@ section {
       transform: translateX(-10%);
     }
   }
+
+  .img-shogun {
+    max-width: none; 
+    width: 120%; 
+    transform: translateX(10%); 
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .img-shogun {
+      width: 150%; 
+      transform: translateX(20%); 
+    }
+  }
+  
