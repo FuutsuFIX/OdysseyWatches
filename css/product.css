@@ -33,14 +33,14 @@ section {
   }
 }
 
-.img-shogun {
+.img-product {
   max-width: none;
   width: 120%;
   transform: translateX(10%);
 }
 
 @media only screen and (max-width: 768px) {
-  .img-shogun {
+  .img-product {
     width: 150%;
     transform: translateX(20%);
   }
