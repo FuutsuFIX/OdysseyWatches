@@ -45,3 +45,11 @@ section {
     transform: translateX(20%);
   }
 }
+
+.circle {
+  margin-right: 0;
+}
+.circle img {
+  max-width: 100%;
+  height: auto;
+}
