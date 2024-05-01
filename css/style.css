@@ -23,3 +23,11 @@ body {
 .navbar-toggler-icon {
   filter: brightness(0) invert(1);
 }
+
+.nav-ody {
+  transition: 0.6s;
+}
+
+.nav-ody:hover {
+  transform: scale(1.05);
+}
