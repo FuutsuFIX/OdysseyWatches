@@ -1,5 +1,5 @@
 .carousel-item img {
-  translate: -25%;
+  margin: auto;
 }
 
 .hero-home {
@@ -66,4 +66,9 @@
 
 li {
   list-style-type: none;
+}
+@media (max-width: 992px) {
+  .carousel-item {
+    padding: 4rem; /* Aggiungi spaziatura interna */
+  }
 }
