@@ -4,6 +4,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const reviewForm = document.getElementById('reviewForm');
 
     const loadReviews = async () => {
+
+        reviewsContainer.innerHTML = '<div class="spinner"></div>';
+
+
+        await new Promise(resolve => setTimeout(resolve, 1000));
+
         try {
             const response = await fetch('../data/reviews.json');
             const reviews = await response.json();
@@ -20,9 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const reviewElement = document.createElement('div');
             reviewElement.classList.add('feed', 'container');
             reviewElement.innerHTML = `
-        <h2>${review.name} - ${review.watch}</h2>
-        <p>${review.review}</p>
-      `;
+                <h2>${review.name} - ${review.watch}</h2>
+                <p>${review.review}</p>
+            `;
             reviewsContainer.appendChild(reviewElement);
         });
     };
