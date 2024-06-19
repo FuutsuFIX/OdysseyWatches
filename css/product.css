@@ -39,6 +39,7 @@ section {
   }
 }
 
+<<<<<<< Updated upstream
 .circle {
   width: 100px;
   height: 100px;
@@ -50,9 +51,35 @@ section {
   
 }
 
+=======
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+>>>>>>> Stashed changes
 .circle img {
-  max-width: 100%;
-  height: auto;
+  display: block;
+  width: 100px;
+}
+.circle h2 {
+  text-align: center;
 }
 
 .zoom-icon {
