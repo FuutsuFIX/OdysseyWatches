@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap");
 
 /* Stili per navbar */
-.navbar-brand{
+.navbar-brand {
   font-family: "Federo", sans-serif;
   font-weight: normal; /* Regular */
   font-size: 48px;
@@ -13,20 +13,20 @@
 }
 .navbar-brand:hover {
   color: #fffbf5;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .navbar-nav .nav-link {
-  color: #fffbf5; 
+  color: #fffbf5;
   font-family: "Federo", sans-serif;
   font-weight: normal; /* Regular */
   font-size: 20px;
   letter-spacing: 1.2px;
   line-height: 1.2;
   color: #fffbf5;
-  text-decoration: none; 
+  text-decoration: none;
 }
-.navbar-nav .nav-link:hover{
+.navbar-nav .nav-link:hover {
   color: rgb(217, 114, 24, 0.75);
 }
 
@@ -104,9 +104,12 @@ button:hover {
   text-decoration: underline; /* Sottolineatura al passaggio del mouse */
 }
 
-
 @media (max-width: 768px) {
-  .navbar-brand{
+  .navbar-brand {
     font-size: 25px;
   }
+}
+
+a {
+  color: #fffbf5;
 }

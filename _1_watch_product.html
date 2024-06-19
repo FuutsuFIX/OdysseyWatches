@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/product.css" />
+    <link rel="stylesheet" href="./css/magnify.css" />
   </head>
   <body>
     <nav
@@ -20,7 +21,9 @@
       style="background-color: rgba(0, 0, 0, 0.7)"
     >
       <div class="container-fluid gx-5">
-        <div class="nav-ody"><a class="navbar-brand" href="index.html">ODYSSEY WATCHES</a></div>
+        <div class="nav-ody">
+          <a class="navbar-brand" href="index.html">ODYSSEY WATCHES</a>
+        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -72,11 +75,15 @@
           <div
             class="col-12 col-md-6 d-flex justify-content-center align-items-center"
           >
-            <img
-              src="./img/watches/arigatogozaimasu.png"
-              alt="Shogun Watch"
-              class="img-fluid full-img"
-            />
+            <div class="img-magnifier-container">
+              <img
+                id="myimage"
+                src="./img/watches/arigatogozaimasu.png"
+                alt="Shogun Watch"
+                class="img-fluid full-img"
+              />
+              <div id="magnifier-glass" class="img-magnifier-glass"></div>
+            </div>
           </div>
           <!-- Titolo per desktop e Testo -->
           <div class="col-12 col-md-6 d-flex align-items-center">
@@ -105,7 +112,8 @@
                 >
                   <path
                     d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
-                  /></svg>
+                  />
+                </svg>
               </a>
             </div>
           </div>
@@ -135,36 +143,51 @@
                 ancient Japan, it invites you on an enduring voyage through the
                 heart of the Shogunate.
               </p>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="circle">
+                        <img
+                          src="./img/materials/pag prodotti/Shogun/EllipseShogun1.png"
+                          alt="Immagine 1"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="circle">
+                        <img
+                          src="./img/materials/pag prodotti/Shogun/EllipseShogun2.png"
+                          alt="Immagine 2"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="circle">
+                        <img
+                          src="./img/materials/pag prodotti/Shogun/EllipseShogun3.png"
+                          alt="Immagine 3"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <!-- Immagine -->
-          <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <img src="./img/materials/pag prodotti/Shogun/shogun.png" alt="Shogun" class="img-product">
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <img
+              src="./img/materials/pag prodotti/Shogun/shogun.png"
+              alt="Shogun"
+              class="img-product"
+            />
           </div>
         </div>
-        
-          <!-- Ellisse-->
-        <div class="row">
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-4">
-                <div class="circle">
-                  <img src="./img/materials/pag prodotti/Shogun/EllipseShogun1.png" alt="Immagine 1">
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="circle">
-                  <img src="./img/materials/pag prodotti/Shogun/EllipseShogun2.png" alt="Immagine 2">
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="circle">
-                  <img src="./img/materials/pag prodotti/Shogun/EllipseShogun3.png" alt="Immagine 3">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
+        <!-- Ellisse-->
       </div>
     </section>
 
@@ -172,38 +195,58 @@
       class="container-fluid gx-5"
       style="background-color: rgba(64, 107, 153, 0.23)"
     >
-      <footer class="py-1">
-        <div class="row">
-          <div class="col-6 col-md-2 mt-3 mb-3">
-            <div>
-              <a class="navbar-brand" href="index.html">ODYSSEY WATCHES</a>
-              <p style="white-space: nowrap">What time is it? You decide!</p>
+      <footer class="footer">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-12">
+              <img
+                src="./img/logo.svg"
+                alt="Odyssey Watches"
+                class="footer-logo py-3"
+              />
+              <h3>ODYSSEY WATCHES</h3>
+              <p class="footer-text">What time is it? You decide!</p>
             </div>
           </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-2">
-            <h5>Follow us</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Home</a>
-              </li>
-            </ul>
+          <div class="row">
+            <div class="col-md-4">
+              <h5>FOLLOW US</h5>
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>CONTACT US</h5>
+              <p>
+                <a href="mailto:info@odysseywatches.com"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h5>CALL US</h5>
+              <p>
+                <a href="tel:0285419787"
+                  ><i class="fas fa-phone"></i> 02 8541 9787</a
+                >
+              </p>
+            </div>
           </div>
-          <div class="col-md-2">
-            <h5>Contact us</h5>
+          <div class="row footer-bottom">
+            <div class="col-md-12 border-top border-3">
+              <p>&copy; 2024 Odyssey Watches, Milan, Italy. VAT 05142867784</p>
+              <a href="#">Privacy Policy</a> |
+              <a style="color: antiquewhite" href="#">Terms and Conditions</a>
+            </div>
           </div>
-          <div class="col-md-2">
-            <h5>Call us</h5>
-          </div>
-        </div>
-        <div
-          class="d-flex flex-column flex-sm-row justify-content-between border-top"
-        >
-          <p>©2024 Odyssesy Watches, Milan, Italy. VAT 05142867784</p>
-          <p>PRIVACY POLICY</p>
-          <p>TERMS AND CONDITIONS</p>
         </div>
       </footer>
     </div>
   </body>
+  <script
+    src="https://kit.fontawesome.com/c217c3081d.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./js/magnify.js"></script>
 </html>

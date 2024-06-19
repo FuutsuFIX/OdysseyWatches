@@ -1,9 +1,9 @@
-.feed{
-    padding: 20px;
-    margin-top: 150px;
-  }
-  .container h2{
-    color: #D97218;
-  }
-  
-  
+.feed {
+  padding: 20px;
+}
+.container h2 {
+  color: #d97218;
+}
+.title-container {
+  margin-top: 100px;
+}
