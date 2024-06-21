@@ -8,6 +8,7 @@
   border-radius: 28px;
   background: rgba(217, 114, 24, 0.75);
   backdrop-filter: blur(2px);
+  text-decoration: none;
 }
 .custom-button:active,
 .custom-button:focus,
