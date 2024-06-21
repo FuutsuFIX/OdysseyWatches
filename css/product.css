@@ -38,20 +38,6 @@ section {
     width: 90%;
   }
 }
-
-<<<<<<< Updated upstream
-.circle {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-=======
 .image-row {
   display: flex;
   justify-content: space-around;
@@ -73,7 +59,6 @@ section {
   overflow: hidden;
 }
 
->>>>>>> Stashed changes
 .circle img {
   display: block;
   width: 100px;
