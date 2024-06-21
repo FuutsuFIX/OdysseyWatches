@@ -79,13 +79,14 @@
   .our-numbers-section {
     height: auto;
   }
+  .carousel-item {
+    padding: 4rem; /* Aggiungi spaziatura interna */
+  }
+  .napoleon {
+    display: none;
+  }
 }
 
 li {
   list-style-type: none;
-}
-@media (max-width: 992px) {
-  .carousel-item {
-    padding: 4rem; /* Aggiungi spaziatura interna */
-  }
 }

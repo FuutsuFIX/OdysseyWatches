@@ -31,3 +31,33 @@ body {
 .nav-ody:hover {
   transform: scale(1.05);
 }
+
+.back-to-top {
+  text-align: center;
+  font-size: 50px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  padding: 5px;
+  z-index: 99;
+  text-decoration: none;
+  color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: rgba(217, 114, 24, 0.75);
+  backdrop-filter: blur(2px);
+  transition: 0.2s;
+}
+.back-to-top:active,
+.back-to-top:focus,
+.back-to-top:hover {
+  background: rgba(151, 79, 16, 0.75);
+  backdrop-filter: blur(2px);
+}
+@media (max-width: 992px) {
+  .back-to-top {
+    transform: scale(0.75);
+  }
+}
