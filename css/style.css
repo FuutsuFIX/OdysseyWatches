@@ -40,12 +40,11 @@ body {
   position: fixed;
   bottom: 20px;
   right: 30px;
-  padding: 5px;
   z-index: 99;
   text-decoration: none;
   color: white;
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
   border-radius: 50%;
   background: rgba(217, 114, 24, 0.75);
   backdrop-filter: blur(2px);
