@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/product.css" />
+    <link rel="stylesheet" href="./css/magnify.css" />
   </head>
   <body>
     <nav
@@ -65,23 +66,28 @@
           >
             <h2>
               Napoleon <br />
-              900$
+              1789$
             </h2>
           </div>
           <!-- Immagine -->
           <div
             class="col-12 col-md-6 d-flex justify-content-center align-items-center"
           >
-            <img
-              src="img/watches/napolehaus.png"
-              alt="Napoleon Watch"
-              class="img-fluid full-img"
-            />
+            <div class="img-magnifier-container">
+              <img
+                id="myimage"
+                src="./img/watches/napoleon.png"
+                alt="Shogun Watch"
+                class="img-fluid full-img"
+              />
+              <div id="magnifier-glass" class="img-magnifier-glass"></div>
+              <i class="fas fa-search zoom-icon"></i>
+            </div>
           </div>
           <!-- Titolo per desktop e Testo -->
-          <div class="col-12 col-md-6 d-flex align-items-center mt-5 mb-5">
+          <div class="col-12 col-md-6 d-flex align-items-center">
             <div>
-              <div class="d-none d-md-block mt-5">
+              <div class="d-none d-md-block">
                 <h2>
                   Napoleon <br />
                   1789$
@@ -135,30 +141,33 @@
                 journey into the heart of the Napoleonic era.
               </p>
               <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-4">
+                <div class="col">
+                  <div class="row image-row">
+                    <div class="col-4 flex image-col">
                       <div class="circle">
                         <img
-                          src="./img/materials/pag_prodotti/napoleon/elb ellipse.png"
+                          src="./img/materials/pag_prodotti/napoleon/ellipseNapoleon1.png"
                           alt="Immagine 1"
                         />
+                        <h2>Elba Island</h2>
                       </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 flex image-col">
                       <div class="circle">
                         <img
-                          src="./img/materials/pag_prodotti/napoleon/notre dame ellipse.png"
+                          src="./img/materials/pag_prodotti/napoleon/ellipseNapoleon2.png"
                           alt="Immagine 2"
                         />
+                        <h2>Notre Dame</h2>
                       </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 flex image-col">
                       <div class="circle">
                         <img
-                          src="./img/materials/pag_prodotti/napoleon/waterloo ellipse.png"
+                          src="./img/materials/pag_prodotti/napoleon/ellipseNapoleon3.png"
                           alt="Immagine 3"
                         />
+                        <h2>Waterloo</h2>
                       </div>
                     </div>
                   </div>
@@ -168,15 +177,17 @@
           </div>
           <!-- Immagine -->
           <div
-            class="col-12 col-md-6 d-flex justify-content-center align-items-center"
+            class="col-md-6 d-flex justify-content-center align-items-center"
           >
             <img
               src="./img/materials/pag_prodotti/napoleon/napoleon.png"
-              alt="Napoleon"
+              alt="Shogun"
               class="img-product"
             />
           </div>
         </div>
+
+        <!-- Ellisse-->
       </div>
     </section>
 
@@ -225,8 +236,15 @@
           <div class="row footer-bottom">
             <div class="col-md-12 border-top border-3">
               <p>&copy; 2024 Odyssey Watches, Milan, Italy. VAT 05142867784</p>
-              <a href="#">Privacy Policy</a> |
+              <a href="https://www.privacypolicies.com/generic/" target="_blank"
+                >Privacy Policy</a
+              >
+              |
               <a style="color: antiquewhite" href="#">Terms and Conditions</a>
+              |
+              <a href="#" id="open_preferences_center"
+                >Update cookies preferences</a
+              >
             </div>
           </div>
         </div>
@@ -235,7 +253,17 @@
     <a href="#" id="BackTop" class="back-to-top"
       ><i class="fa-solid fa-arrow-up"></i
     ></a>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c217c3081d.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/backToTop.js"></script>
+    <script src="./js/magnify.js"></script>
     <script
       type="text/javascript"
       src="//www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js"
@@ -263,9 +291,4 @@
       <a href="https://www.termsfeed.com/">TermsFeed</a></noscript
     >
   </body>
-  <script
-    src="https://kit.fontawesome.com/c217c3081d.js"
-    crossorigin="anonymous"
-  ></script>
-  <script src="./js/magnify.js"></script>
 </html>
