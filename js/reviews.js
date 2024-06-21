@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         await new Promise(resolve => setTimeout(resolve, 1000));
 
         try {
-            const response = await fetch('../data/reviews.json');
+            const response = await fetch('./reviews.json');
             const reviews = await response.json();
             displayRandomReviews(reviews);
         } catch (error) {
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const newReview = { name, watch, review };
 
         try {
-            const response = await fetch('../data/reviews.json');
+            const response = await fetch('./reviews.json');
             const reviews = await response.json();
             reviews.push(newReview);
 
