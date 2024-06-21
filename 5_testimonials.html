@@ -66,41 +66,58 @@
       </div>
       <div id="reviews" class="mt-4"></div>
     </section>
-
-    <section class="container my-5">
-      <h1>Share your experience!</h1>
-      <form id="reviewForm">
-        <div class="mb-3">
-          <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name" required />
+    <section class="container-fluid my-5 px-0">
+      <div class="row align-items-center mx-0">
+        <div class="col-lg-3 d-none d-lg-block px-0 left-contain">
+          <img
+            src="./img/materials/testimonials/pharaoh.png"
+            alt="pharaoh on spaceship"
+            class="img-fluid custom-img-left"
+          />
         </div>
-        <div class="mb-3">
-          <label for="watch" class="form-label">Watch Model</label>
-          <select class="form-select" id="watch" required>
-            <option value="" disabled selected>Select a watch model</option>
-            <option value="Shogun">Shogun</option>
-            <option value="Billy the Kid">Billy the Kid</option>
-            <option value="Napoleon">Napoleon</option>
-            <option value="Raptor">Raptor</option>
-            <option value="Ramses">Ramses</option>
-            <option value="Cesare">Cesare</option>
-          </select>
+        <div class="col-lg-6 col-12 px-3">
+          <h1>Share your experience!</h1>
+          <form id="reviewForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required />
+            </div>
+            <div class="mb-3">
+              <label for="watch" class="form-label">Watch Model</label>
+              <select class="form-select" id="watch" required>
+                <option value="" disabled selected>Select a watch model</option>
+                <option value="Shogun">Shogun</option>
+                <option value="Billy the Kid">Billy the Kid</option>
+                <option value="Napoleon">Napoleon</option>
+                <option value="Raptor">Raptor</option>
+                <option value="Ramses">Ramses</option>
+                <option value="Cesare">Cesare</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="review" class="form-label">Review</label>
+              <textarea
+                class="form-control"
+                id="review"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn custom-button">Submit</button>
+          </form>
         </div>
-        <div class="mb-3">
-          <label for="review" class="form-label">Review</label>
-          <textarea
-            class="form-control"
-            id="review"
-            rows="3"
-            required
-          ></textarea>
+        <div class="col-lg-3 d-none d-lg-block px-0 right-contain">
+          <img
+            src="./img/materials/testimonials/roman.png"
+            alt="Roman on spaceship"
+            class="img-fluid custom-img-right"
+          />
         </div>
-        <button type="submit" class="btn custom-button">Submit</button>
-      </form>
+      </div>
     </section>
 
     <div
-      class="container-fluid gx-5"
+      class="container-fluid gx-5 review-contain"
       style="background-color: rgba(64, 107, 153, 0.23)"
     >
       <footer class="footer">
