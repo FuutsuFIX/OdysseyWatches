@@ -61,3 +61,8 @@ body {
     transform: scale(0.75);
   }
 }
+.termsfeed-com---palette-dark .cc-nb-reject,
+.termsfeed-com---palette-dark .cc-nb-okagree,
+.termsfeed-com---palette-dark .cc-cp-foot-save {
+  background: rgba(217, 114, 24, 1) !important;
+}

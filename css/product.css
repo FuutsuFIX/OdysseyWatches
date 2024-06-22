@@ -85,3 +85,7 @@ section {
     transform: scale(0.9);
   }
 }
+
+.fixed-height {
+  height: 90px;
+}
