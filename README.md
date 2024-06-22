@@ -24,7 +24,7 @@ Il sito di Odyssey Watches è una vetrina interattiva dove i clienti possono acq
 - **Testimonianze**: Recensioni dei clienti.
 - **Contatti**: Informazioni di contatto.
 
-> Per un'anteprima del progetto, visita il seguente link: [Website Preview]([https://odysseywatches.com](https://fuutsufix.github.io/OdysseyWatches/root/index.html))
+> Per un'anteprima del progetto, visita il seguente link: [https://fuutsufix.github.io/OdysseyWatches/root/index.html]
 
 ## Gruppo di Lavoro
 
