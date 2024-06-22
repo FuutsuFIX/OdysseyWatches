@@ -77,3 +77,11 @@ section {
   border-radius: 50%;
   padding: 5px;
 }
+@media only screen and (max-width: 992px) {
+  .circle h2 {
+    transform: scale(0.6);
+  }
+  .circle img {
+    transform: scale(0.9);
+  }
+}
