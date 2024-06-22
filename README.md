@@ -35,6 +35,3 @@ Il sito di Odyssey Watches è una vetrina interattiva dove i clienti possono acq
 - **Jacopo Ruoti** - 905299
 - **Gabriele Pirato** - 897360
 
----
-
-Questo README è ispirato al formato del file che hai fornito, mantenendo un focus sulle informazioni essenziali e la struttura del progetto. Se ci sono ulteriori dettagli o modifiche che desideri includere, fammelo sapere!
