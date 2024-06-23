@@ -89,3 +89,7 @@ section {
 .fixed-height {
   height: 90px;
 }
+
+.buy-btn {
+  width: 174px;
+}
