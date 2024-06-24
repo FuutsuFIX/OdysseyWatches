@@ -4,7 +4,7 @@
 
 Odyssey Watches offre un'esperienza unica combinando tecnologia avanzata e design storico, permettendo ai clienti di esplorare diverse epoche attraverso i nostri orologi.
 
-<img src="root/img/logo.svg" alt="Odyssey Watches Logo"/>
+<img src="root/img/materials/logo_border.png" alt="Odyssey Watches Logo"/>
 
 ## Descrizione del Progetto
 
@@ -25,6 +25,9 @@ Il sito di Odyssey Watches è una vetrina interattiva dove i clienti possono acq
 - **Contatti**: Informazioni di contatto.
 
 > Per un'anteprima del progetto, visita il seguente link: [https://fuutsufix.github.io/OdysseyWatches/root/index.html]
+
+## Gruppo di Lavoro
+Per controllare errori e simili, è stato usata l'estensione [W3C Web Validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator) direttamente da visual studio code, in modo tale da velocizzare il processo di controllo e ottimizzarlo.
 
 ## Gruppo di Lavoro
 
