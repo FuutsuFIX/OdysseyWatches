@@ -27,7 +27,7 @@ Il sito di Odyssey Watches è una vetrina interattiva dove i clienti possono acq
 > Per un'anteprima del progetto, visita il seguente link: [https://fuutsufix.github.io/OdysseyWatches/root/index.html]
 
 ## Gruppo di Lavoro
-Per controllare errori e simili, è stato usata l'estensione (W3C Web Validator)[https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator] direttamente da visual studio code, in modo tale da velocizzare il processo di controllo e ottimizzarlo.
+Per controllare errori e simili, è stato usata l'estensione [W3C Web Validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator) direttamente da visual studio code, in modo tale da velocizzare il processo di controllo e ottimizzarlo.
 
 ## Gruppo di Lavoro
 
