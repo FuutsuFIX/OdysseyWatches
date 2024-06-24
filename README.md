@@ -4,7 +4,7 @@
 
 Odyssey Watches offre un'esperienza unica combinando tecnologia avanzata e design storico, permettendo ai clienti di esplorare diverse epoche attraverso i nostri orologi.
 
-<img src="root/img/materials/logo_border.png" alt="Odyssey Watches Logo"/>
+<img src="root/img/materials/logo_OD/logo_border.png" alt="Odyssey Watches Logo"/>
 
 ## Descrizione del Progetto
 
